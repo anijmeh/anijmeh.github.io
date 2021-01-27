@@ -63,10 +63,63 @@ button {
     margin-left: 200px;
     margin-top: 100px;
     border: 3px solid #099dfd;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.274);
 }
-#remoteStream {
-    border: 3px solid #099dfd;
+
+.remoteCon {
     margin-left: 200px;
-    width: 20%;
+    width: 70%;
     height: 20%;
+    display: inline-flex;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+#remoteStream1 {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.274);
+    border: 3px solid #099dfd;
+    width: 35%;
+    height: 100%;
+}
+#remoteStream2 {
+    margin-left: 5px;
+    border: 3px solid #099dfd;
+    width: 35%;
+    height: 100%;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.274);
+}
+#remoteStream3 {
+    margin-left: 5px;
+    border: 3px solid #099dfd;
+    width: 35%;
+    height: 100%;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.274);
+}
+#remoteStream4 {
+    margin-left: 5px;
+    border: 3px solid #099dfd;
+    width: 35%;
+    height: 100%;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.274);
+}
+
+.participants {
+    margin-left: 20px;
+    margin-top: 75px;
+}
+
+#list {
+    font-size: 1.5rem;
+}
+
+#nameCon {
+    display: flex;
+    flex-direction: column;
+}
+
+#names {
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #099dfd;
+    font-size: 1.25rem;
 }
