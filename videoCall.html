@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Agora Day3-Ayah</title>
+        <link rel="stylesheet" href="style2.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+    </head>
+    <body id="page">
+        <div class="side-panel">
+            <div id="logo-container">
+                <img src="assets/agoraLogo.png" id="logo"/>
+            </div>
+            <div class="sign-in">
+                <span id="join">Join A Chat!</span>
+                <br/>
+                <input type="text" id="username" placeholder="Username"/>
+                <br/>
+                <input type="text" id="chat-address" placeholder="Chat Address"/>
+                <br/>
+                <button class="submitButton" id="join-button">Join</button>
+            </div>
+        </div>
+        <div class="video-panel">
+            <div id="selfStream">
+            </div>
+            <br/>
+            <div id="remoteStream">
+            </div>
+        </div>
+        <script src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.0.0.js"></script>
+        <script src="agoraRtc.js"></script>
+    </body>
+</html>
