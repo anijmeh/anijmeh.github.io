@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(drip.jpg); 
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.background-container {
+    width: 100%;
+    height: 100%;
+}
+
+#main-panel {
+    width: 60%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.685);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    border-radius: 30px;
+}
+
+.sign-in {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#welcome-container {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 30px;
+}
+
+#welcome {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: rgb(112, 57, 129);
+}
+
+#title {
+    font-size: 3rem;
+    color: rgb(112, 57, 129);
+}
+
+#extra {
+    padding-top: 30px;
+    display: block;
+    color: rgb(112, 57, 129);
+}
+
+#email {
+    margin-top: 5%;
+}
+
+input {
+    margin-top: 10px;
+    padding: 20px;
+    width: 60%;
+    border: 2px solid rgb(112, 57, 129);
+    border-radius: 7px;
+    font-size: 1.5rem;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(80, 80, 80, 0.548);
+}
+
+::placeholder {
+    color: rgb(112, 57, 129);
+}
+
+button {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    background-color: rgb(112, 57, 129);
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 7px;
+    box-shadow: 0px 4px 20px rgba(80, 80, 80, 0.548);
+    font-size: 1rem;
+}
+
+
+
+#page {
+    display: flex;
+    flex: 2;
+}
+
+.joinPanel {
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+#join {
+    font-size: 2rem;
+    color: rgb(180, 56, 139);
+}
+
+.left-panel {
+    background-color: rgba(255, 255, 255, 0.746);
+    width: 20%
+}
+
+#name {
+    padding: 5px;
+    font-size: 1rem;
+    width: 88%;
+    border-color: rgb(180, 56, 139);
+}
+
+#address {
+    padding: 5px;
+    font-size: 1rem;
+    width: 88%;
+    border-color: rgb(180, 56, 139);
+}
+
+#joinButton {
+    font-size: 0.75rem;
+    background-color: rgb(180, 56, 139);
+    margin-left: 15%;
+}
+
+#leaveButton {
+    font-size: 0.75rem;
+    background-color: rgb(180, 56, 139);
+}
+
+#participants {
+    margin-top: 20%;
+    text-align: center;
+}
+
+#list {
+    color: rgb(180, 56, 139);
+    font-size: 1.5rem;
+}
+
+#names {
+    color: rgb(112, 57, 129);
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.video-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.screen-container {
+    width: 100%;
+    flex-grow: 2;
+}
+
+.streams-container {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.746);
+}
+
+#byline {
+    font-size: 0.8rem;
+    color: rgb(180, 56, 139);
+}
+
+#SelfStream {
+    /* border: 4px solid black; */
+    width: 20%;
+    height: 80%;
+    margin-top: 1%;
+    margin-left: 5px;
+}
+
+#RemoteStream1 {
+    /* border: 4px solid black; */
+    width: 20%;
+    height: 80%;
+    margin-top: 1%;
+    margin-left: 10px;
+}
+
+#RemoteStream2 {
+    /* border: 4px solid black; */
+    width: 20%;
+    height: 80%;
+    margin-top: 1%;
+    margin-left: 10px;
+}
+
+#RemoteStream3 {
+    /* border: 4px solid black; */
+    width: 20%;
+    height: 80%;
+    margin-top: 1%;
+    margin-left: 10px;
+}
+
+#RemoteStream4 {
+    /* border: 4px solid black; */
+    width: 20%;
+    height: 80%;
+    margin-top: 1%;
+    margin-left: 10px;
+}
+
+.controls {
+    margin-left: 25px;
+    width: 80%;
+    height: 40%;
+    text-align: center;
+    /* align-items: center; */
+}
+
+.control-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#control-header {
+    color: rgb(180, 56, 139);
+    font-size: 1.5rem;
+}
+
+#VideoStream {
+    margin: auto;
+    margin-top: 4%;
+    height: 61%;
+    width: 80%;
+}
+
+#share {
+    margin-top: 0px;
+    background-color: rgb(180, 56, 139);
+}
+
+#muteaudio {
+    background-color: rgb(180, 56, 139);
+}
+
+#mutevideo {
+    background-color: rgb(180, 56, 139);
+}

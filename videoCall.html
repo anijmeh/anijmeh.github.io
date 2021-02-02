@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>SideNote</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body id="page">
+        <div class="left-panel">
+            <div class="joinPanel">
+                <span id="join">Join a Chat</span>
+                <input type="text" id="name" placeholder="Name"/>
+                <br/>
+                <input type="text" id="address" placeholder="Party Name"/>
+                <br/>
+                <button id="joinButton" type="submit">Join</button>
+                <button id="leaveButton" type="submit">Leave</button>
+            </div>
+            <div id="participants">
+                <span id="list">Participants</span>
+                <br/>
+                <span id="byLine">(Up to 5 Friends at a Time)</span>
+                <div id="names">
+                </div>
+            </div>
+            <div class="control-container">
+                <span id="control-header">Controls</span>
+            </div>
+            <div class="controls">
+                <br/>
+                <button id="share" type="submit">Select Screen</button>
+                <br/>
+                <button id="muteAudio" type="submit">Mute Audio</button>
+                <br/>
+                <button id="muteVideo" type="submit">Mute Video</button>
+            </div>
+        </div>
+        <div class="video-panel">
+            <div class="screen-container">
+                <div id="VideoStream"></div>
+            </div>
+            <div class="streams-container">
+                <div id="SelfStream"></div>
+                <div id="RemoteStream1"></div>
+                <div id="RemoteStream2"></div>
+                <div id="RemoteStream3"></div>
+                <div id="RemoteStream4"></div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+        <script src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.0.0.js"></script>
+
+    </body>
+</html>
